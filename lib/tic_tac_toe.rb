@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
         def display_board
           # def self.print_all
-          @board.each {|i| print i}
+          @board.each {|i| print i|}
       # end
         end
 
