@@ -68,6 +68,7 @@ WIN_COMBINATIONS = [
               x
             else
               o
+            end
         end
 
 
