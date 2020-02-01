@@ -77,13 +77,23 @@ WIN_COMBINATIONS = [
         def turn
           puts "Enter a number between 1-9"
           input_to_index(input)
+          if valid_move(i) == true
+            move && display_board
+          else
+            puts "Enter a number between 1-9"
+          end
+          
 
         end
 
 
 
 
-
+        # Ask the user for their move by specifying a position between 1-9.
+        # Receive the user's input.
+        # Translate that input into an index value.
+        # If the move is valid, make the move and display the board.
+        # If the move is invalid, ask for a new move until a valid move is received.
 
 
 
