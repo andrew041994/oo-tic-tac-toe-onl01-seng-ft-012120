@@ -16,11 +16,11 @@ WIN_COMBINATIONS = [
         end
 
         def display_board
-          puts "#{@board[0]}" | "#{@board[1]}" | "#{@baord[2]}"
+          puts "#{@board[0]} |" "#{@board[1]} |" "#{@baord[2]}"
 
-          puts "#{@board[3]}" | "#{@board[4]}" | "#{@baord[5]}"
+          puts "#{@board[3]} |" "#{@board[4]} |" "#{@baord[5]}"
 
-          puts "#{@board[6]}" | "#{@board[7]}" | "#{@baord[8]}"
+          puts "#{@board[6]} |" "#{@board[7]} |" "#{@baord[8]}"
         end
 
 end
