@@ -52,7 +52,7 @@ WIN_COMBINATIONS = [
           end
         end
 
-        def turn
+        def turn_count
 
         end
 
