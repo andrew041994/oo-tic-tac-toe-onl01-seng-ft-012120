@@ -56,14 +56,14 @@ WIN_COMBINATIONS = [
           x = 0
           o = 0
 
-          @board.each do|i| 
+          @board.each do|i|
               if i == "X"
                 x + 1
               elsif i == "O"
                 o + 1
               end
             end
-                
+
 
         end
 
