@@ -32,7 +32,24 @@ WIN_COMBINATIONS = [
 
         def move(index, token = "X")
           @board[index] = token
-
         end
+        
+        def position_taken(i)
+          if @board[i] == "X" || "O"
+            true
+          else
+            false
+          
+        end
+
+
+
+
+
+
+
+
+
+        
 
 end
