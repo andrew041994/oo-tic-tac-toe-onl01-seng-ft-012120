@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
         end
 
         def display_board
-
+          print @board
         end
 
 end
