@@ -45,7 +45,7 @@ WIN_COMBINATIONS = [
         end
 
         def valid_move?(i)
-          if 1..9.include(i)
+          if 1..9.contains(i)
             true
           else
             false
