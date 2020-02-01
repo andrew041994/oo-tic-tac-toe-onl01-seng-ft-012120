@@ -30,4 +30,8 @@ WIN_COMBINATIONS = [
           i
         end
 
+        def move(index, token = "X")
+          
+        end
+
 end
