@@ -50,7 +50,10 @@ WIN_COMBINATIONS = [
           else
             false
           end
+        end
 
+        def turn
+          
         end
 
 
