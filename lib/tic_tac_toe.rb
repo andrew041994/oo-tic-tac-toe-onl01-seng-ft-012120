@@ -35,7 +35,9 @@ WIN_COMBINATIONS = [
         end
 
         def position_taken?(i)
-          if @board[i] == "X" || "O"
+          if @board[i] == "X"
+            true
+          elsif @board[i] == "O"            
             true
           else
             false
