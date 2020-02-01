@@ -76,8 +76,8 @@ WIN_COMBINATIONS = [
 
         def turn
           puts "Enter a number between 1-9"
-          input_to_index(input)
-          if valid_move(i) == true
+          input_to_index
+          if valid_move == true
             move && display_board
           else
             puts "Enter a number between 1-9"
