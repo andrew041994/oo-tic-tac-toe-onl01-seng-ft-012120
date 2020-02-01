@@ -82,7 +82,7 @@ WIN_COMBINATIONS = [
           else
             puts "Enter a number between 1-9"
           end
-          
+
 
         end
 
