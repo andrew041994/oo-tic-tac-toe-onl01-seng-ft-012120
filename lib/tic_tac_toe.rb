@@ -53,23 +53,18 @@ WIN_COMBINATIONS = [
         end
 
         def turn_count
-          x = 0
-          o = 0
+          count = 0
 
           @board.each do|i|
               if i == "X"
-                x + 1
+                count + 1
               elsif i == "O"
-                o + 1
+                 count + 1
               end
             end
-
-            if x > o
-              x
-            else
-              o
-            end
+            count
         end
+
 
 
 
