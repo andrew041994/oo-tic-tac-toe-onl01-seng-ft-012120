@@ -80,7 +80,7 @@ WIN_COMBINATIONS = [
           user_input = gets.strip
           input_to_index(user_input)
           if valid_move?(user_input) == true
-            move(index, token="X") && display_board
+            move(index, token) && display_board
           else
             puts "Enter a number between 1-9"
           end
