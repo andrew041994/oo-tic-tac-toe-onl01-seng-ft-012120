@@ -64,7 +64,10 @@ WIN_COMBINATIONS = [
               end
             end
 
-
+            if x > o
+              x
+            else
+              o
         end
 
 
