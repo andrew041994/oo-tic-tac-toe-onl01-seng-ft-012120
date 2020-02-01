@@ -74,7 +74,7 @@ WIN_COMBINATIONS = [
             end
         end
 
-        def turn(input)
+        def turn
           puts "Enter a number between 1-9"
 
         end
