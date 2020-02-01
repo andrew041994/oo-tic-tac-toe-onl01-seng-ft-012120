@@ -21,7 +21,7 @@ WIN_COMBINATIONS = [
 
           puts "#{@board} | #{@board} | #{@baord}"
 
-          puts "#{@board[6]} | #{@board[7]} | #{@baord[8]}"
+          puts "#{@board} | #{@board} | #{@baord}"
         end
 
 end
