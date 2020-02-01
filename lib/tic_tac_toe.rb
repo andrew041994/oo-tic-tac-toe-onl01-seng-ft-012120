@@ -66,7 +66,7 @@ WIN_COMBINATIONS = [
         end
 
         def current_player
-          
+
         end
 
 
