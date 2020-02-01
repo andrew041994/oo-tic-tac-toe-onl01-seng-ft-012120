@@ -31,6 +31,7 @@ WIN_COMBINATIONS = [
         end
 
         def move(index, token = "X")
+          @board[index] = token
 
         end
 
