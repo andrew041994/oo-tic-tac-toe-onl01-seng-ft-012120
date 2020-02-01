@@ -26,8 +26,7 @@ WIN_COMBINATIONS = [
         end
 
         def input_to_index(input)
-          i= input.to_i
-          i = i-1
+          i = input.to_i
           @board[i]
         end
 
