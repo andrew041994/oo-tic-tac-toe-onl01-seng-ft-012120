@@ -16,8 +16,9 @@ WIN_COMBINATIONS = [
         end
 
         def display_board
+          print @board
           # def self.print_all
-          @board.each {|i| print " #{i} |" && "-----------"}
+          # @board.each {|i| print " #{i} |" && "-----------"}
       # end
         end
 
