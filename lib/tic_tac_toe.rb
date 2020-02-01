@@ -35,13 +35,20 @@ WIN_COMBINATIONS = [
         end
 
         def position_taken?(i)
-          if @board[i] == "X"
-            true
-          elsif @board[i] == "O"
+            if @board[i] == "X"
+              true
+            elsif @board[i] == "O"
+              true
+            else
+              false
+            end
+        end
+
+        def valid_move?(i)
+          if 1..9.include?(i)
             true
           else
             false
-          end
 
         end
 
