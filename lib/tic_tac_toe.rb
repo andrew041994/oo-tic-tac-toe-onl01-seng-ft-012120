@@ -34,7 +34,7 @@ WIN_COMBINATIONS = [
           @board[index] = token
         end
 
-        def position_taken(i)
+        def position_taken?(i)
           if @board[i] == "X" || "O"
             true
           else
