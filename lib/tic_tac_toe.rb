@@ -57,9 +57,9 @@ WIN_COMBINATIONS = [
 
           @board.each do|i|
               if i == "X"
-                count + 1
+                count += 1
               elsif i == "O"
-                 count + 1
+                 count += 1
               end
             end
             count
