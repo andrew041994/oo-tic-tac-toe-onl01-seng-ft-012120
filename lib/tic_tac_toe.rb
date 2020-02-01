@@ -45,6 +45,7 @@ WIN_COMBINATIONS = [
         end
 
         def valid_move?(i)
+          i = i.to_i 
           if i.between?(0,8) && !position_taken?(i)
             true
           else
