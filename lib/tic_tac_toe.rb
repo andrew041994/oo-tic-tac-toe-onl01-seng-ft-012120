@@ -77,10 +77,10 @@ WIN_COMBINATIONS = [
 
         def turn
           puts "Enter a number between 1-9"
-          input = gets
-          input_to_index(input)
-          if valid_move?(input) == true
-            move ("" "")&& display_board
+          user_input = gets.strip
+          input_to_index(user_input)
+          if valid_move?(user_input) == true
+            move && display_board
           else
             puts "Enter a number between 1-9"
           end
